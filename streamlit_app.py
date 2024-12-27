@@ -17,7 +17,7 @@ st.set_page_config(page_title="Employee Attrition Analysis", layout="wide")
 
 def load_data():
     # Replace with your data loading logic
-    df = pd.read_csv('/workspaces/employeeattributionprediction/HR_Analytics.csv.csv')
+    df = pd.read_csv('HR_Analytics.csv.csv')
     return df
 
 def preprocess_data(df):
