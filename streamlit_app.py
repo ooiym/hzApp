@@ -73,7 +73,7 @@ class CatBoostKNNWrapper:
 
 # 1. Load pre-trained models
 def load_models():
-    save_path = '/workspaces/employeeattributionprediction/Models/'
+    save_path = 'Models/'
     trained_models = {}
     model_names = [
         "Stacked RF+GB+SVM",
